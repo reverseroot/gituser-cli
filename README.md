@@ -28,5 +28,20 @@ GITLAB_TOKEN="***"
 # Run script
 ```
 node dist/cli.js <user_url>
-Example: node dist/cli.js https://github.com/reverseroot
+
+```
+
+# Example
+```
+$ node dist/cli.js https://github.com/reverseroot
+
+
+Profile URL: https://github.com/reverseroot
+Five most used languages:
+* Ruby (85.72%)
+* HTML (13.18%)
+* JavaScript (0.59%)
+* Python (0.23%)
+* TypeScript (0.19%)
+
 ```
