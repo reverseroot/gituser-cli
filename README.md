@@ -10,8 +10,16 @@ npm install typescript @types/node --save-dev
 
 npm install @octokit/rest @gitbeaker/rest node-fetch
 
+npm install dotenv
+
 # Build
 npx tsc
+
+# Load ENV
+Create a env file in the repo root
+GITHUB_TOKEN="***"
+GITLAB_TOKEN="***"
+
 
 # Run script
 node dist/cli.js <user_url>
